@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanuka Jayasinghe – CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cv">
+
+    <!-- HEADER -->
+    <header class="cv-header">
+      <h1>Dhanuka Jayasinghe</h1>
+      <div class="contact-row">
+        <span>Doncaster, UK</span>
+        <span><a href="tel:+447565898139">+44 7565 898139</a></span>
+        <span><a href="mailto:hasitha2kandy@gmail.com">hasitha2kandy@gmail.com</a></span>
+        <span><a href="https://github.com/DHJayasinghe">github.com/DHJayasinghe</a></span>
+        <span><a href="https://www.linkedin.com/in/dhanuka-jayasinghe">linkedin.com/in/dhanuka-jayasinghe</a></span>
+      </div>
+      <div class="visa-line">Eligible to work in the UK &middot; Skilled Worker visa &middot; Sponsorship required</div>
+    </header>
+
+    <!-- PROFILE -->
+    <section class="cv-section">
+      <h2>Profile</h2>
+      <p>
+        Senior Software Engineer and Tech Lead with 9+ years of backend and cloud-native development expertise on
+        .NET and Azure. Currently engineering a high-scale e-commerce platform at NEXT, serving 5 million customers.
+        Microsoft Certified Azure Solutions Architect Expert and DevOps Engineer Expert, with deep experience in
+        distributed systems, cloud infrastructure, and leading complex technical migrations. Passionate about
+        designing systems that are reliable, performant, and built to scale.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="cv-section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <span class="skill-label">Languages &amp; Frameworks</span>
+          <span>C#, ASP.NET Core, Entity Framework Core, Angular</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Cloud &amp; DevOps</span>
+          <span>Azure (AKS, App Services, Function Apps, APIM, Service Bus, DevOps, Bicep, ACI, Managed Identities, Key Vault), AWS, Docker</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Data</span>
+          <span>MS SQL Server, Azure SQL, Cosmos DB, MongoDB, Azure Data Factory, Azure Storage</span>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Observability &amp; Testing</span>
+          <span>Application Insights, Dynatrace, Load Balancers, Apache JMeter, MSTest</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section class="cv-section">
+      <h2>Work Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="job-left">
+            <span class="job-title">Senior Developer</span>
+            <span class="job-company">NEXT</span>
+          </div>
+          <div class="job-meta">
+            <span class="job-dates">Nov 2023 &ndash; Present</span>
+            <span class="job-location">Doncaster, UK</span>
+          </div>
+        </div>
+        <p class="job-context">
+          Delivering the <strong>VIP platform</strong> — a seasonal sale running at 40K concurrent users across a 5&thinsp;M-user
+          customer base, selling products at 50%+ off. Stack: .NET 10, Angular, Azure AKS, Cosmos DB, MongoDB, Azure SQL,
+          Application Insights, Dynatrace.
+        </p>
+        <ul>
+          <li><strong>Led migration of the New Admin system</strong> from a legacy platform to the new architecture —
+            conducted in-depth analysis of existing functionality, collaborated with cross-functional teams to map
+            feature usage, and identified and resolved critical functional defects ahead of go-live.</li>
+          <li><strong>Designed and implemented Disaster Recovery strategies</strong> including backward-compatibility
+            sync and background fallback jobs, enabling seamless rollback to the legacy system under failure conditions
+            without impacting live traffic.</li>
+          <li><strong>Coordinated with DBAs to implement database query optimisations</strong> across the platform,
+            identifying and resolving slow-running queries to improve resilience under peak seasonal load.</li>
+          <li><strong>Led performance investigation during stress testing</strong>, diagnosing root causes of
+            degradation and driving fixes to ensure platform stability ahead of the live sale event.</li>
+          <li><strong>Mentored the team on coding best practices, memory optimisation and code review standards</strong>,
+            ensuring the codebase could sustain the high-concurrency demands of the 40K peak load.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="job-left">
+            <span class="job-title">Tech Lead / Senior Software Engineer</span>
+            <span class="job-company">JRC Software</span>
+          </div>
+          <div class="job-meta">
+            <span class="job-dates">Apr 2021 &ndash; Nov 2023</span>
+            <span class="job-location">Remote</span>
+          </div>
+        </div>
+        <p class="job-context">
+          Working on <strong>Bricks + Agents</strong>, Australia's largest property maintenance platform.
+          Design, develop and maintain microservice-based cloud applications using .NET, Azure and Angular.
+        </p>
+        <ul>
+          <li><strong>Planned and led</strong> the migration of 2.5&thinsp;TB SQL Server databases from AWS to Azure using
+            a Log Shipping strategy, ensuring a seamless transition with business disruption reduced to 30 minutes.</li>
+          <li><strong>Improved server query response time by 50%</strong> through indexing, NoSQL caching and query
+            optimisation using Azure SQL and Cosmos DB.</li>
+          <li><strong>Cut CI/CD release time by 75%</strong> by implementing pipeline triggers and a blue/green
+            deployment strategy with Azure DevOps, deployment slots, ACI + Docker and Self-Hosted Agents.</li>
+          <li><strong>Designed an event-driven architecture</strong> using Durable Azure Functions and Service Bus,
+            eliminating frequent database polling and resulting in reduced cost and improved response time.</li>
+          <li><strong>Implemented BFF pattern</strong> via Azure APIM, centralising authentication, authorisation,
+            rate limiting and API versioning across microservices.</li>
+          <li><strong>Strengthened security posture</strong> by adopting OAuth2 with IdentityServer, Azure AD,
+            Managed Identities and Key Vaults, minimising data breach risk across all services.</li>
+          <li><strong>Designed multi-cloud solution</strong> bridging AWS and Azure via Hybrid Connection and S2S VPN,
+            improving application scalability and enabling rapid cross-cloud development.</li>
+          <li><strong>Adopted Infrastructure as Code</strong> using Azure Bicep, standardising deployments across
+            environments and reducing configuration drift and risk of errors.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div class="job-left">
+            <span class="job-title">Software Engineer</span>
+            <span class="job-company">B.P.R Global / Antler Foundry (Pvt) Ltd</span>
+          </div>
+          <div class="job-meta">
+            <span class="job-dates">Jun 2016 &ndash; Apr 2021</span>
+            <span class="job-location">Colombo, Sri Lanka</span>
+          </div>
+        </div>
+        <ul>
+          <li>Designed and deployed bespoke software solutions for the Aberdeen Holdings conglomerate, streamlining
+            operations and driving automation across diverse business entities.</li>
+          <li>Built a system to automate courier operation workflows for a UPS-authorised agent, eliminating
+            significant manual overhead and improving operational throughput.</li>
+          <li>Led requirements-gathering sessions directly with clients, ensuring business needs were fully understood
+            and project delivery was met on time.</li>
+          <li><em>Technologies:</em> ASP.NET MVC5/Web API, C#, EF Core, SQL Server, RabbitMQ, Angular, Docker, jQuery, GCloud VMs.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="cv-section">
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="project-header">
+          <span class="project-name">Facebook System Design</span>
+          <a class="project-link" href="https://github.com/DHJayasinghe/system-design">github.com/DHJayasinghe/system-design</a>
+        </div>
+        <p>Personal study project implementing Facebook core components (feed, notifications, messaging) on Azure,
+          focusing on high availability, horizontal scaling and performance.</p>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="cv-section">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+        <li>Microsoft Certified: DevOps Engineer Expert</li>
+        <li>Microsoft Certified: Azure Administrator Associate</li>
+        <li>Microsoft Certified: Azure Developer Associate</li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="cv-section">
+      <h2>Education</h2>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-left">
+            <span class="job-title">BSc (Hons) Software Engineering</span>
+            <span class="job-company">Cardiff Metropolitan University</span>
+          </div>
+          <div class="job-meta">
+            <span class="job-dates">2018 &ndash; 2019</span>
+          </div>
+        </div>
+        <p>First-class honours with Academic Excellence &middot;
+          Dissertation: <em>Importance of Facial Recognition based Patient Identification at Emergency Treatment Units (ETU)</em>
+        </p>
+      </div>
+    </section>
+
+  </div><!-- /cv -->
+
+  <!-- DOWNLOAD BUTTON (screen only) -->
+  <div class="download-bar no-print">
+    <a class="download-btn" href="#" onclick="window.print(); return false;">Download PDF</a>
+  </div>
+
+</body>
+</html>
