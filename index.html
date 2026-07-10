@@ -79,16 +79,26 @@
           Application Insights, Dynatrace.
         </p>
         <ul>
-          <li><strong>Led migration of the New Admin system</strong> from a legacy platform to the new architecture —
-            conducted in-depth analysis of existing functionality, collaborated with cross-functional teams to map
-            feature usage, and identified and resolved critical functional defects ahead of go-live.</li>
+          <li><strong>Led migration and launch readiness of the New Admin system</strong> — analysed the legacy
+            platform, collaborated with cross-functional teams to map feature coverage, and identified 40 bugs
+            including 15 critical defects (missing features, incorrect report data). Triaged findings with
+            management, created a prioritised fix plan and drove all blockers to resolution ahead of the
+            seasonal sale launch.</li>
+          <li><strong>Reduced UAT deployment time by 80% and production deployment time by 50%</strong> by building
+            an automated release pipeline that analyses git history to identify released tickets per drop,
+            auto-generates database apply and rollback scripts by comparing branches, tags branches and tickets,
+            and creates Azure DevOps queries for each release.</li>
           <li><strong>Designed and implemented Disaster Recovery strategies</strong> including backward-compatibility
             sync and background fallback jobs, enabling seamless rollback to the legacy system under failure conditions
             without impacting live traffic.</li>
-          <li><strong>Coordinated with DBAs to implement database query optimisations</strong> across the platform,
-            identifying and resolving slow-running queries to improve resilience under peak seasonal load.</li>
-          <li><strong>Led performance investigation during stress testing</strong>, diagnosing root causes of
-            degradation and driving fixes to ensure platform stability ahead of the live sale event.</li>
+          <li><strong>Drove remediation of 40 underperforming stored procedures</strong> in collaboration with DBAs —
+            identifying non-sargable queries, inefficient JOIN patterns and IS NULL conditions causing index scans,
+            high CPU and excessive I/O — de-risking the platform ahead of the seasonal sale event.</li>
+          <li><strong>Led performance root-cause analysis during stress testing</strong>, triaging degradation reports
+            (response times, CPU/memory utilisation, abnormal external API call patterns) against previous sale
+            baselines and coordinating fixes across teams. Identified a Regex initialisation issue in a new
+            QuickShop feature causing high CPU — confirmed via .NET benchmarking — and resolved it, achieving
+            a 50% CPU reduction.</li>
           <li><strong>Mentored the team on coding best practices, memory optimisation and code review standards</strong>,
             ensuring the codebase could sustain the high-concurrency demands of the 40K peak load.</li>
         </ul>
