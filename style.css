@@ -249,6 +249,15 @@ body {
   font-weight: 700;
 }
 
+.cert-list a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.cert-list a:hover {
+  text-decoration: underline;
+}
+
 /* =====================================================
    DOWNLOAD BUTTON
    ===================================================== */
