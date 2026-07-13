@@ -79,11 +79,9 @@
           Application Insights, Dynatrace.
         </p>
         <ul>
-          <li><strong>Led migration and launch readiness of the New Admin system</strong> — analysed the legacy
-            platform, collaborated with cross-functional teams to map feature coverage, and identified 40 bugs
-            including 15 critical defects (missing features, incorrect report data). Triaged findings with
-            management, created a prioritised fix plan and drove all blockers to resolution ahead of the
-            seasonal sale launch.</li>
+          <li><strong>Led migration and launch readiness of the New Admin system</strong>, identifying 40 bugs
+            including 15 critical defects (missing features, incorrect report data), triaging with management
+            and driving all blockers to resolution ahead of the seasonal sale launch.</li>
           <li><strong>Reduced UAT deployment time by 80% and production deployment time by 50%</strong> by building
             an automated release pipeline that analyses git history to identify released tickets per drop,
             auto-generates database apply and rollback scripts by comparing branches, tags branches and tickets,
@@ -94,12 +92,10 @@
           <li><strong>Drove remediation of 40 underperforming stored procedures</strong> in collaboration with DBAs —
             identifying non-sargable queries, inefficient JOIN patterns and IS NULL conditions causing index scans,
             high CPU and excessive I/O — de-risking the platform ahead of the seasonal sale event.</li>
-          <li><strong>Led performance root-cause analysis during stress testing</strong>, triaging degradation reports
-            (response times, CPU/memory utilisation, abnormal external API call patterns) against previous sale
-            baselines and coordinating fixes across teams. Identified a Regex initialisation issue in a new
-            QuickShop feature causing high CPU — confirmed via .NET benchmarking — and resolved it, achieving
-            a 50% CPU reduction.</li>
-          <li><strong>Mentored the team on coding best practices, memory optimisation and code review standards</strong>,
+          <li><strong>Led performance root-cause analysis during stress testing</strong>, diagnosing degradation
+            against previous sale baselines and coordinating fixes across teams. Resolved a Regex initialisation
+            issue in a QuickShop feature — confirmed via .NET benchmarking — reducing CPU usage by 50%.</li>
+          <li><strong>Coached the team on coding best practices, memory optimisation and code review standards</strong>,
             ensuring the codebase could sustain the high-concurrency demands of the 40K peak load.</li>
         </ul>
       </div>
@@ -124,12 +120,13 @@
             a Log Shipping strategy, ensuring a seamless transition with business disruption reduced to 30 minutes.</li>
           <li><strong>Improved server query response time by 50%</strong> through indexing, NoSQL caching and query
             optimisation using Azure SQL and Cosmos DB.</li>
-          <li><strong>Cut CI/CD release time by 75%</strong> by implementing pipeline triggers and a blue/green
-            deployment strategy with Azure DevOps, deployment slots, ACI + Docker and Self-Hosted Agents.</li>
+          <li><strong>Streamlined CI/CD pipelines, reducing release time by 75%</strong>, by implementing pipeline
+            triggers and a blue/green deployment strategy with Azure DevOps, deployment slots, ACI + Docker
+            and Self-Hosted Agents.</li>
           <li><strong>Designed an event-driven architecture</strong> using Durable Azure Functions and Service Bus,
             eliminating frequent database polling and resulting in reduced cost and improved response time.</li>
-          <li><strong>Implemented BFF pattern</strong> via Azure APIM, centralising authentication, authorisation,
-            rate limiting and API versioning across microservices.</li>
+          <li><strong>Implemented Backend for Frontend (BFF) pattern</strong> via Azure APIM, centralising
+            authentication, authorisation, rate limiting and API versioning across microservices.</li>
           <li><strong>Strengthened security posture</strong> by adopting OAuth2 with IdentityServer, Azure AD,
             Managed Identities and Key Vaults, minimising data breach risk across all services.</li>
           <li><strong>Designed multi-cloud solution</strong> bridging AWS and Azure via Hybrid Connection and S2S VPN,
@@ -151,16 +148,27 @@
           </div>
         </div>
         <ul>
-          <li>Designed and deployed bespoke software solutions for the Aberdeen Holdings conglomerate, streamlining
-            operations and driving automation across diverse business entities.</li>
-          <li>Built a system to automate courier operation workflows for a UPS-authorised agent, eliminating
+          <li><strong>Designed and deployed</strong> bespoke software solutions for the Aberdeen Holdings conglomerate,
+            streamlining operations and driving automation across diverse business entities.</li>
+          <li><strong>Built</strong> a courier workflow automation system for a UPS-authorised agent, eliminating
             significant manual overhead and improving operational throughput.</li>
-          <li>Led requirements-gathering sessions directly with clients, ensuring business needs were fully understood
+          <li><strong>Led</strong> client requirements-gathering sessions, ensuring business needs were fully understood
             and project delivery was met on time.</li>
           <li><em>Technologies:</em> ASP.NET MVC5/Web API, C#, EF Core, SQL Server, RabbitMQ, Angular, Docker, jQuery, GCloud VMs.</li>
         </ul>
       </div>
 
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="cv-section">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>Microsoft Certified: Azure Solutions Architect Expert</li>
+        <li>Microsoft Certified: DevOps Engineer Expert</li>
+        <li>Microsoft Certified: Azure Administrator Associate</li>
+        <li>Microsoft Certified: Azure Developer Associate</li>
+      </ul>
     </section>
 
     <!-- PROJECTS -->
@@ -174,17 +182,6 @@
         <p>Personal study project implementing Facebook core components (feed, notifications, messaging) on Azure,
           focusing on high availability, horizontal scaling and performance.</p>
       </div>
-    </section>
-
-    <!-- CERTIFICATIONS -->
-    <section class="cv-section">
-      <h2>Certifications</h2>
-      <ul class="cert-list">
-        <li>Microsoft Certified: Azure Solutions Architect Expert</li>
-        <li>Microsoft Certified: DevOps Engineer Expert</li>
-        <li>Microsoft Certified: Azure Administrator Associate</li>
-        <li>Microsoft Certified: Azure Developer Associate</li>
-      </ul>
     </section>
 
     <!-- EDUCATION -->
